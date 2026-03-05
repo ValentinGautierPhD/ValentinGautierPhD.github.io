@@ -1,0 +1,65 @@
+works:
+  - authors:
+      - Valentin Gautier
+    journalTitle: null
+    publicationDate:
+      day: "21"
+      month: "06"
+      year: "2025"
+    title:
+      value: Occipet
+    type: software
+    url: https://hal.science/hal-05124103
+    doi: hal-05124103
+  - authors:
+      - V Gautier
+      - A Bousse
+      - F Sureau
+      - C Comtat
+      - V Maxim
+      - B Sixou
+    journalTitle: Physics in Medicine & Biology
+    publicationDate:
+      day: "21"
+      month: "12"
+      year: "2024"
+    title:
+      value: Bimodal PET/MRI generative reconstruction based on VAE architectures
+    type: journal-article
+    url: https://doi.org/10.1088/1361-6560/ad9133
+    doi: 10.1088/1361-6560/ad9133
+  - authors:
+      - Valentin Gautier
+      - Claude Comtat
+      - Florent Sureau
+      - Alexandre Bousse
+      - Voichita Maxim
+      - Bruno Sixou
+    journalTitle: null
+    publicationDate:
+      day: null
+      month: null
+      year: "2024"
+    title:
+      value: Synergistic PET/MR reconstruction with VAE constraint
+    type: conference-proceedings
+    url: https://hal.science/hal-04754695
+    doi: hal-04754695
+  - authors:
+      - Valentin Gautier
+      - Claude Comtat
+      - Florent Sureau
+      - Alexandre Bousse
+      - Louise Friot–giroux
+      - Voichita Maxim
+      - Bruno Sixou
+    journalTitle: null
+    publicationDate:
+      day: null
+      month: null
+      year: "2023"
+    title:
+      value: VAE constrained MR guided PET reconstruction
+    type: conference-proceedings
+    url: https://hal.science/hal-04846701
+    doi: hal-04846701
