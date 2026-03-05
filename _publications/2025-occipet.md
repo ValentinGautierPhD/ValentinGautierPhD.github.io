@@ -1,6 +1,7 @@
 ---
 title: "Occipet"
 collection: publications
+category: softwares
 permalink: /publication/2025-occipet
 date: 2025-06-21
 venue: 'Conference/Preprint'

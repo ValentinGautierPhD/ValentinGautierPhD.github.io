@@ -1,6 +1,7 @@
 ---
 title: "VAE constrained MR guided PET reconstruction"
 collection: publications
+category: conferences
 permalink: /publication/2023-vae-constrained-mr-guided-pet-
 date: 2023-01-01
 venue: 'Conference/Preprint'

@@ -1,6 +1,7 @@
 ---
 title: "Bimodal PET/MRI generative reconstruction based on VAE architectures"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-bimodal-pet/mri-generative-rec
 date: 2024-12-21
 venue: 'Physics in Medicine & Biology'

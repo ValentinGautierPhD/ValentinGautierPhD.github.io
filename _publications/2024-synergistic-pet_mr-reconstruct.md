@@ -1,6 +1,7 @@
 ---
 title: "Synergistic PET/MR reconstruction with VAE constraint"
 collection: publications
+category: conferences
 permalink: /publication/2024-synergistic-pet/mr-reconstruct
 date: 2024-01-01
 venue: 'Conference/Preprint'

@@ -11,9 +11,21 @@ if not os.path.exists('_publications'):
 with open('_publications/pubs.yml', 'r') as f:
     data = yaml.safe_load(f)
 
+type_mapping = {
+    'journal-article': 'manuscripts',
+    'conference-proceedings': 'conferences',
+    'conference-paper': 'conferences',
+    'software': 'softwares',
+    'book': 'books',
+    'edited-book': 'books'
+}
+    
 for work in data.get('works', []):
     # Nettoyage des données
     title = work['title']['value']
+    orcid_type = work.get('type', '')
+    # Attribution de la catégorie (manuscripts par défaut si inconnu)
+    category = type_mapping.get(orcid_type, 'manuscripts')
     date_info = work.get('publicationDate', {})
     year = date_info.get('year', '2024')
     # Formatage de la date pour Jekyll (YYYY-MM-DD)
@@ -33,6 +45,7 @@ for work in data.get('works', []):
     content = f"""---
 title: "{title}"
 collection: publications
+category: {category}
 permalink: /publication/{year}-{title.replace(' ', '-').lower()[:30]}
 date: {full_date}
 venue: '{venue}'
