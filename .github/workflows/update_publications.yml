@@ -26,5 +26,8 @@ jobs:
           publicationsFileName: "pubs"
         # The action outputs the number of publications retrieved from ORCiD
         # and the FilenamePath of the generated file
+      - name: Convert YAML to Markdown files
+        run: |
+          python create_pubs.py
       - name: Shows number of publication and FilePath
         run: echo "${{ steps.getOrcidPublications.outputs.numberOfPublications }} publications have been saved on ${{ steps.getOrcidPublications.outputs.filePath }}"
