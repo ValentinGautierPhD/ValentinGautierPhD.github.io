@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "List of science communication activities"
+permalink: /communication/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.communication reversed %}
+  {% include archive-single.html %}
+{% endfor %}
