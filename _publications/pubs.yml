@@ -53,13 +53,14 @@ works:
       - Louise Friot–giroux
       - Voichita Maxim
       - Bruno Sixou
-    journalTitle: null
+    journalTitle: 17th International Meeting on Fully Three-Dimensional Image
+      Reconstruction in Radiology and Nuclear Medicine (Fully3D)
     publicationDate:
-      day: null
-      month: null
+      day: "21"
+      month: "07"
       year: "2023"
     title:
       value: VAE constrained MR guided PET reconstruction
-    type: conference-proceedings
-    url: https://hal.science/hal-04846701
-    doi: hal-04846701
+    type: conference-paper
+    url: null
+    doi: hal-04846701v1
