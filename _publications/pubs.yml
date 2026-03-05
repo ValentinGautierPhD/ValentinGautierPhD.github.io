@@ -35,16 +35,16 @@ works:
       - Alexandre Bousse
       - Voichita Maxim
       - Bruno Sixou
-    journalTitle: null
+    journalTitle: 2024 32nd European Signal Processing Conference (EUSIPCO)
     publicationDate:
-      day: null
-      month: null
+      day: "26"
+      month: "08"
       year: "2024"
     title:
-      value: Synergistic PET/MR reconstruction with VAE constraint
-    type: conference-proceedings
-    url: https://hal.science/hal-04754695
-    doi: hal-04754695
+      value: Synergistic PET/MR Reconstruction with VAE Constraint
+    type: conference-paper
+    url: http://dx.doi.org/10.23919/eusipco63174.2024.10715319
+    doi: 10.23919/eusipco63174.2024.10715319
   - authors:
       - Valentin Gautier
       - Claude Comtat
