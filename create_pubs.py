@@ -33,7 +33,19 @@ for work in data.get('works', []):
     day = date_info.get('day', '01') or '01'
     full_date = f"{year}-{month}-{day}"
 
-    venue = work.get('journalTitle') or "Conference/Preprint"
+    # Récupération du titre du journal/conférence
+    journal = work.get('journalTitle')
+    
+    # Logique de sélection de la "Venue"
+    if journal:
+        venue = journal
+    elif orcid_type == 'software':
+        venue = "Software Project" # Ou "Open Source Software"
+    elif orcid_type == 'conference-proceedings' or orcid_type == 'conference-paper':
+        venue = "Conference Proceedings"
+    else:
+        venue = "Preprint / Other"
+
     doi = work.get('doi', '')
     url = work.get('url', '')
     authors = ", ".join(work.get('authors', []))
