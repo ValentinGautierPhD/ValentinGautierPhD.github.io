@@ -20,7 +20,7 @@ Work experience
 ======
 * From October 2025: Postdoctoral Researcher
   * LS2N Centrale Nantes
-  * Supervisors: Diana Mateus, Mira Rizkallah
+  * Supervisors: Diana Mateus, Mira Rizkallah, Thomas Carlier
 
 * March - August 2021: Intern
   * ATOS BULL, Echirolle, France, R&D team
@@ -42,7 +42,11 @@ Awards
 
 Skills
 ======
-* Python
+* Programming
+  * Python
+  * R
+  * C
+  * Java
 * Languages
   * French (native)
   * English (fluent)
