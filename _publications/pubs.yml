@@ -11,6 +11,18 @@ works:
     type: software
     url: https://hal.science/hal-05124103
     doi: hal-05124103
+  - authors: []
+    journalTitle: null
+    publicationDate:
+      day: "13"
+      month: "03"
+      year: "2025"
+    title:
+      value: Reconstruction bimodale d'images TEP/IRM assistée par intelligence
+        artificielle
+    type: dissertation-thesis
+    url: https://doi.org/10.70675/ea642faezb448z40eaz9c50zcacaac03878c
+    doi: 10.70675/ea642faezb448z40eaz9c50zcacaac03878c
   - authors:
       - V Gautier
       - A Bousse
