@@ -1,5 +1,5 @@
 ---
-title: "Podcast "Sous la blouse"
+title: 'Podcast "Sous la blouse"'
 collection: communication
 permalink: /communication/2023-sous-la-blouse
 date: 2023-11-13
@@ -17,6 +17,6 @@ Participated to the "Sous la blouse" podcast. I presented my work and my life as
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen>
   </iframe>
-  <p><em>Sous la blouse -Valentin Gautier</em></p>
+  <p><em>Sous la blouse - Valentin Gautier</em></p>
 </div>
 
