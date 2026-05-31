@@ -1,5 +1,21 @@
 works:
   - authors:
+      - Marion Savanier
+      - Noel Jeffrey Pinton
+      - Valentin Gautier
+      - Claude Comtat
+      - Florent Sureau
+    journalTitle: IEEE Transactions on Radiation and Plasma Medical Sciences
+    publicationDate:
+      day: null
+      month: null
+      year: "2026"
+    title:
+      value: Evaluating the Impact of MRI Guidance on Plug-and-Play PET Reconstruction
+    type: journal-article
+    url: https://doi.org/10.1109/TRPMS.2026.3697630
+    doi: 10.1109/TRPMS.2026.3697630
+  - authors:
       - Valentin Gautier
     journalTitle: null
     publicationDate:
